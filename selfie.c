@@ -11838,6 +11838,7 @@ int main(int argc, char** argv) {
   init_target();
 
   exit_code = selfie(0);
+  printf("%s: This is Christopher Flores Selfie\n", selfie_name);
 
   return exit_selfie(exit_code, " [ ( -m | -d | -r | -y ) 0-4096 ... ]");
 }
